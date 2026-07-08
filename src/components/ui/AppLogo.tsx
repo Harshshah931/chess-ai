@@ -8,7 +8,7 @@ interface AppLogoProps {
 export default function AppLogo({ size = 32, className }: AppLogoProps) {
   return (
     <img
-      src="/assets/images/app_logo.png"
+      src="/images/app_logo.png"
       alt="ChessAI Logo"
       width={size}
       height={size}
